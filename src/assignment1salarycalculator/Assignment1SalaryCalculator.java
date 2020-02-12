@@ -15,7 +15,11 @@ public class Assignment1SalaryCalculator {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        SalaryCalculator calc = new SalaryCalculator();
+        calc.calcHourlyWage(32000);
+        calc.calcSalary(10);
+        calc.calcTaxes(0.20);
+        calc.monthlyAfterTax(42000, 0.25);
     }
     
 }
